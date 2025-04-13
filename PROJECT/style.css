@@ -70,6 +70,11 @@ header{
     gap: 10px;
     border-radius: 4px;
     background: var(--Blue, #6246EA);
+    transition: 0.5s;
+}
+.header-button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 .header-button a{
     color: #FFFFFE;
@@ -116,32 +121,47 @@ main{
     font-size: 20px;
     font-weight: 400;
 }
-.main-form{
+.form{
+    width: 609px;
+    height: 67px;
     display: flex;
     gap: 20px;
 }
-.main-regestration{
-    display: flex;
-    padding: 21px 200px 21px 25px;
-    align-items: center;
-    gap: 10px;
-    border-radius: 8px;
-    background: #FFFFFE;
-}
-.main-button-email{
-    display: flex;
+.registration{
+    width: 444px;
     height: 67px;
-    padding: 20px 23px 19px 23px;
-    justify-content: center;
+    display: flex;
     align-items: center;
     gap: 10px;
     border-radius: 8px;
-    background: var(--Blue, #6246EA);
+    background: var(--White, #FFFFFE);
 }
-input::placeholder{
-    color:  #C0C0C0;
+.registration input{
+    width: 219px;
+    height: 25px;
+}
+.registration input::placeholder{
+    color: var(--Grey, #C0C0C0);
     font-size: 20px;
     font-weight: 400;
+}
+.button-email{
+    width: 145px;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--Blue, #6246EA);
+    color: var(--White, #FFFFFE);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.button-email:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 .main-right{
     width: 470px;
@@ -340,7 +360,7 @@ section{
 .section-block1:hover{
     border-radius: 12px;
     background: var(--White, #FFFFFE);
-    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    box-shadow: 0px 7px 11px 1px rgba(0,0,0,0.18);
     transition: 0.5s;
 }
 .block-top{
@@ -386,8 +406,13 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
-button{
+.section-button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.section-button button{
     color: #FFFFFE;
     font-size: 20px;
     font-weight: 700;
