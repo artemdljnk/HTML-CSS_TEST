@@ -64,23 +64,23 @@ header{
     text-transform: capitalize;
 }
 .header-button{
+    width: 213px;
+    height: 44px;
     display: flex;
-    padding: 10px 17px;
-    align-items: flex-start;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     background: var(--Blue, #6246EA);
+    gap: 10px;
     transition: 0.5s;
-}
-.header-button:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-.header-button a{
     color: #FFFFFE;
     font-size: 18px;
     font-weight: 700;
     text-transform: capitalize;
+}
+.header-button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 /*----main-----*/
 main{
@@ -132,7 +132,7 @@ main{
     height: 67px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     border-radius: 8px;
     background: var(--White, #FFFFFE);
 }
@@ -407,16 +407,14 @@ section{
     justify-content: center;
     align-items: center;
     transition: 0.5s;
-}
-.section-button:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-.section-button button{
     color: #FFFFFE;
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
+}
+.section-button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 /*-------address------*/
 address{
